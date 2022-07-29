@@ -11,8 +11,8 @@ function countDown () {
         `)
     for (let y = 0; y <= 3; y++) {
         for (let x = 0; x <= 4; x++) {
-            led.unplot(x, y)
-            basic.pause(100)
+            led.unplot(x, y + 1)
+            basic.pause(1000)
         }
     }
 }
